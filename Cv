@@ -5,7 +5,7 @@
 
     <style>
         body {
-            background-color: #d6c3fa;
+            background-color: #ffe6f2; /* Pink pastel lembut */
             font-family: "Times New Roman", Times, serif;
             margin: 40px;
         }
@@ -51,11 +51,6 @@
     <h2>Indawahyuni Malah</h2>
 
     <div class="container">
-        
-        <!-- Foto -->
-        <div>
-            <img src="images/me.png">
-        </div>
 
         <!-- Bagian Kanan -->
         <div class="kanan">
@@ -84,8 +79,9 @@
 
     <hr>
 
-    <!-- Ganti link Instagram nanti -->
-    <a href="#">Instagram</a>
+    <a href="https://www.instagram.com/ppilil_?igsh=MXJibnEybng5MW9xdw==" target="_blank">
+        Instagram
+    </a>
 
 </body>
 </html>
