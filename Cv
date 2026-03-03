@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curriculum Vitae</title>
+
+    <style>
+        body {
+            background-color: #d6c3fa;
+            font-family: "Times New Roman", Times, serif;
+            margin: 40px;
+        }
+
+        .container {
+            display: flex;
+            gap: 50px;
+            align-items: flex-start;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        .kanan {
+            max-width: 600px;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Curriculum Vitae</h1>
+    <h2>Indawahyuni Malah</h2>
+
+    <div class="container">
+        
+        <!-- Foto -->
+        <div>
+            <img src="images/me.png">
+        </div>
+
+        <!-- Bagian Kanan -->
+        <div class="kanan">
+
+            <p>
+                Lulusan SMA yang memiliki minat dalam bidang teknologi dan 
+                pengembangan diri. Memiliki pengalaman organisasi dan terbiasa 
+                bekerja sama dalam tim. Berkomitmen untuk terus belajar dan 
+                mengembangkan kemampuan di bidang akademik maupun non-akademik.
+            </p>
+
+            <h3>Pendidikan :</h3>
+            <ol>
+                <li>SD Cokro Girian (2012-2018)</li>
+                <li>MTS Al-Khairat Bitung (2018-2021)</li>
+                <li>SMA Negeri 1 Bitung (2021-2024)</li>
+            </ol>
+
+            <h3>Pengalaman Organisasi :</h3>
+            <ul>
+                <li>Sekretaris Rohis</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Ganti link Instagram nanti -->
+    <a href="#">Instagram</a>
+
+</body>
+</html>
